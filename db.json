@@ -1,0 +1,99 @@
+{
+  "buildings": [
+    {
+      "id": 1,
+      "name": "A教",
+      "area": 10000,
+      "floors": 5,
+      "description": "主教学楼，包含多个大型教室和办公室"
+    },
+    {
+      "id": 2,
+      "name": "B教",
+      "area": 10000,
+      "floors": 5,
+      "description": "理科教学楼，配备实验室"
+    },
+    {
+      "id": 3,
+      "name": "C教",
+      "area": 10000,
+      "floors": 5,
+      "description": "科研实验楼，包含各类专业实验室"
+    }
+  ],
+  "energy": [
+    {
+      "buildingId": 1,
+      "monthly": [
+        { "month": "1月", "electricity": 500, "water": 120 },
+        { "month": "2月", "electricity": 450, "water": 110 },
+        { "month": "3月", "electricity": 600, "water": 130 },
+        { "month": "4月", "electricity": 550, "water": 125 },
+        { "month": "5月", "electricity": 700, "water": 140 },
+        { "month": "6月", "electricity": 650, "water": 135 }
+      ],
+      "daily": [
+        { "day": "1日", "electricity": 18, "water": 4.5 },
+        { "day": "2日", "electricity": 17, "water": 4.3 },
+        { "day": "3日", "electricity": 19, "water": 4.8 },
+        { "day": "4日", "electricity": 20, "water": 5.0 },
+        { "day": "5日", "electricity": 22, "water": 5.2 }
+      ]
+    },
+    {
+      "buildingId": 2,
+      "monthly": [
+        { "month": "1月", "electricity": 400, "water": 100 },
+        { "month": "2月", "electricity": 380, "water": 95 },
+        { "month": "3月", "electricity": 420, "water": 105 },
+        { "month": "4月", "electricity": 410, "water": 102 },
+        { "month": "5月", "electricity": 450, "water": 110 },
+        { "month": "6月", "electricity": 430, "water": 108 }
+      ],
+      "daily": [
+        { "day": "1日", "electricity": 15, "water": 3.8 },
+        { "day": "2日", "electricity": 14, "water": 3.6 },
+        { "day": "3日", "electricity": 16, "water": 4.0 },
+        { "day": "4日", "electricity": 17, "water": 4.2 },
+        { "day": "5日", "electricity": 18, "water": 4.5 }
+      ]
+    },
+    {
+      "buildingId": 3,
+      "monthly": [
+        { "month": "1月", "electricity": 350, "water": 90 },
+        { "month": "2月", "electricity": 330, "water": 85 },
+        { "month": "3月", "electricity": 370, "water": 95 },
+        { "month": "4月", "electricity": 360, "water": 92 },
+        { "month": "5月", "electricity": 390, "water": 100 },
+        { "month": "6月", "electricity": 380, "water": 98 }
+      ],
+      "daily": [
+        { "day": "1日", "electricity": 13, "water": 3.3 },
+        { "day": "2日", "electricity": 12, "water": 3.1 },
+        { "day": "3日", "electricity": 14, "water": 3.6 },
+        { "day": "4日", "electricity": 15, "water": 3.8 },
+        { "day": "5日", "electricity": 16, "water": 4.0 }
+      ]
+    },
+    {
+      "buildingId": "all",
+      "monthly": [
+        { "month": "1月", "electricity": 1250, "water": 310 },
+        { "month": "2月", "electricity": 1160, "water": 290 },
+        { "month": "3月", "electricity": 1390, "water": 330 },
+        { "month": "4月", "electricity": 1320, "water": 319 },
+        { "month": "5月", "electricity": 1540, "water": 350 },
+        { "month": "6月", "electricity": 1460, "water": 341 }
+      ],
+      "daily": [
+        { "day": "1日", "electricity": 46, "water": 11.6 },
+        { "day": "2日", "electricity": 43, "water": 11.0 },
+        { "day": "3日", "electricity": 49, "water": 12.4 },
+        { "day": "4日", "electricity": 52, "water": 13.0 },
+        { "day": "5日", "electricity": 56, "water": 13.7 }
+      ]
+    }
+  ]
+}

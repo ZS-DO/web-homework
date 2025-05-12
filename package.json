@@ -1,0 +1,27 @@
+{
+  "name": "hydroelectricity",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "mock": "json-server --watch db.json --port 3001",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "echarts": "^5.6.0",
+    "mockjs": "^1.1.0",
+    "router": "^2.2.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^6.1.1",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "json-server": "^1.0.0-beta.3",
+    "vite": "^6.2.4",
+    "vite-plugin-vue-devtools": "^7.7.2"
+  }
+}
